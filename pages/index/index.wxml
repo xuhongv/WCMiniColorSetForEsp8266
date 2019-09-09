@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <color-picker class="color-picker" colorData="{{colorData}}" rpxRatio="{{rpxRatio}}" bindchangecolor="onChangeColor"></color-picker>
+
+  <view class="button-sp-area">
+    <button class="weui-btn" type="primary" size="mini" bindtap="onClickOpen">开灯</button>
+    <button class="weui-btn" type="warn" size="mini" bindtap="onClickOff">关灯</button>
+  </view>
+
+  <view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__text">Copyright ©半颗心脏 https://github.com/xuhongv</view>
+  </view>
+
+</view>
